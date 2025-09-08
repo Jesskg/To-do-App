@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Language & Module Target */
+    "target": "es6",             // Compile modern ES6 features
+    "module": "es6",             // Use ES6 modules for the browser
+    "moduleResolution": "node",
+
+    /* Type Checking */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Debugging */
+    "sourceMap": true
+  },
+  "include": ["src"],             // only compile files inside src/
+  "exclude": ["node_modules"]     // ignore dependencies
+}
